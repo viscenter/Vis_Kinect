@@ -1,0 +1,8 @@
+C:\Users\jkarlo\Desktop\Example Code\GestureControls\GestureControls\GestureControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jkarlo\Desktop\Example Code\GestureControls\GestureControls\GestureControls\bin\Debug\GestureControls.dll
+C:\Users\jkarlo\Desktop\Example Code\GestureControls\GestureControls\GestureControls\bin\Debug\GestureControls.pdb
+C:\Users\jkarlo\Desktop\Example Code\GestureControls\GestureControls\GestureControls\obj\Debug\GestureControls.dll
+C:\Users\jkarlo\Desktop\Example Code\GestureControls\GestureControls\GestureControls\obj\Debug\GestureControls.pdb
+C:\Users\jkarlo\Desktop\Example Code\GestureControls\GestureControls\GestureControls\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\jkarlo\Desktop\Example Code\GestureControls\GestureControls\GestureControls\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\jkarlo\Desktop\Example Code\GestureControls\GestureControls\GestureControls\bin\Debug\Coding4Fun.Kinect.Wpf.pdb

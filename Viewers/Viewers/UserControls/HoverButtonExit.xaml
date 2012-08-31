@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Viewers.HoverButtonExit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:ctrl="clr-namespace:GestureControls.Controls;assembly=GestureControls"
+             mc:Ignorable="d"
+             d:DesignHeight="41" d:DesignWidth="123" Background="Transparent">
+    <Canvas>
+        <TextBlock Opacity="0" Name="_Texto" Height="41" Width="123" TextAlignment="Right" Foreground="DarkSlateGray" FontFamily="Century" FontSize="32" FontWeight="ExtraBold"/>
+        <Image Name="Imagen" Height="41" Width="41" Opacity="0.5" Source="ButtonPictures/ImView_ExitButton.png"/>
+        <ctrl:HoverButton Name="Boton" Width="41" Height="41" Opacity="0"
+                          KinectCursorEnter="MakeVisible" KinectCursorLeave="MakeInvisible"/>
+    </Canvas>
+</UserControl>

@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Viewers.ButtonHome"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:ctrl="clr-namespace:GestureControls.Controls;assembly=GestureControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="68" d:DesignWidth="190">
+    <Canvas ctrl:KinectButton.KinectCursorEnter="MakeVisible" ctrl:KinectButton.KinectCursorLeave="MakeInvisible">
+        <Image Panel.ZIndex="0" Name="Imagen" Width="190" Height="68" Source="ButtonPictures/ImView_HomeHover.png" Opacity="0"/>
+        <ctrl:HoverButton Panel.ZIndex="1" Name="Boton" Width="190" Height="68" Opacity="0"/>
+    </Canvas>
+</UserControl>
